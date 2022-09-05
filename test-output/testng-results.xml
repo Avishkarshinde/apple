@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-28T13:39:41 IST" name="Default suite" finished-at="2022-08-28T13:40:03 IST" duration-ms="21589">
+    <groups>
+    </groups>
+    <test started-at="2022-08-28T13:39:41 IST" name="Default test" finished-at="2022-08-28T13:40:03 IST" duration-ms="21589">
+      <class name="tastecases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:41 IST" name="setup" finished-at="2022-08-28T13:39:48 IST" duration-ms="6253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginzerodhAppText()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:48 IST" name="LoginzerodhAppText" finished-at="2022-08-28T13:39:49 IST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginzerodhAppText -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:49 IST" name="exit" finished-at="2022-08-28T13:39:50 IST" duration-ms="751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginzerodhAppText status=SUCCESS method=LoginPageTest.LoginzerodhAppText()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:50 IST" name="setup" finished-at="2022-08-28T13:39:53 IST" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varifyAppTittleTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:53 IST" name="varifyAppTittleTest" finished-at="2022-08-28T13:39:53 IST" duration-ms="32" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at tastecases.LoginPageTest.varifyAppTittleTest(LoginPageTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyAppTittleTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:53 IST" name="exit" finished-at="2022-08-28T13:39:55 IST" duration-ms="1396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyAppTittleTest status=FAILURE method=LoginPageTest.varifyAppTittleTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:55 IST" name="setup" finished-at="2022-08-28T13:39:58 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varifyKiteLebelTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:58 IST" name="varifyKiteLebelTest" finished-at="2022-08-28T13:39:58 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyKiteLebelTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:58 IST" name="exit" finished-at="2022-08-28T13:39:59 IST" duration-ms="708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyKiteLebelTest status=SUCCESS method=LoginPageTest.varifyKiteLebelTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:39:59 IST" name="setup" finished-at="2022-08-28T13:40:02 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varifyKiteLogoTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:40:02 IST" name="varifyKiteLogoTest" finished-at="2022-08-28T13:40:02 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyKiteLogoTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:tastecases.LoginPageTest@1b6e1eff]" started-at="2022-08-28T13:40:02 IST" name="exit" finished-at="2022-08-28T13:40:03 IST" duration-ms="796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyKiteLogoTest status=SUCCESS method=LoginPageTest.varifyKiteLogoTest()[pri:0, instance:tastecases.LoginPageTest@1b6e1eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- tastecases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
